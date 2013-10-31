@@ -11,7 +11,11 @@
     <name>Sesame Tools</name>
     <description>Miscellaneous utilities for use with OpenRDF Sesame</description>
 
-
+    <parent>
+      <groupId>edu.rpi.tw</groupId>
+      <artifactId>twc-parent</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </parent>
 
     <modules>
         <module>caching</module>

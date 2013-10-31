@@ -11,6 +11,8 @@
     <name>Sesame Tools</name>
     <description>Miscellaneous utilities for use with OpenRDF Sesame</description>
 
+
+
     <modules>
         <module>caching</module>
         <module>common</module>
@@ -122,13 +124,5 @@
             <url>http://fortytwo.net/maven2</url>
         </repository>
     </repositories>
-
-    <distributionManagement>
-        <repository>
-            <id>fortytwo</id>
-            <name>fortytwo.net Maven repository</name>
-            <url>file:///mnt/repository</url>
-        </repository>
-    </distributionManagement>
 
 </project>
